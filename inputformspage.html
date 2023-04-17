@@ -12,22 +12,30 @@
 		</header>
 		<main>
 		<form>   <!-- wrapper for all input tags -->
-		<input type = "text" value ="first textbox" /> <br><br>
+		<input type = "text" value ="Enter Username" placeholder="It is a placeholder"/> <br><br>
 		<input type = "password"/> <br><br>
-		<textarea rows="10" columns="30">Enter a  paragraph in this textarea
+		<textarea rows="10" columns="30" placeholder="This is a placeholder">Enter a  paragraph in this textarea. White space   does matter here.
 		</textarea><br><br>
-
+		<button type="button" >Click Me</button>
+		<button type="reset">Reset to Default Values</button>
 		<input type="date"/><br<br>
-		<input type="email"/><br><br>
+		<input required type="email"/><br><br> <!--It will display a message that email is required when you submit the form-->
 		<input type="range"/><br><br>
 		<input type="file"/><br><br>
-		<input type="checkbox"/><br><br>
-		<input type="checkbox"/><br><br>
-		<input name="button" type="radio"/><br><br>
-		<input name="button" type="radio"/><br><br>
+		<select name="selected_option">
+			<option value="" disabled="disabled">-Disabled-</option>
+			<option value="value1">This is value 1</option>
+			<option value="value2">This is value 2</option>
+			<option value="default-is-selected" selected="selected">Selected by default</option>
+		
+		</select><br>
+		<input type="checkbox" value="Checkbox 1"/>Checkbox 1<br><br>
+		<input type="checkbox" value="Checkbox 2"/><br><br>
+		<input name="button" type="radio" value="Radio button 1"/><br><br>
+		<input name="button" type="radio" value="Radio button 2"/><br><br>
 		<input type="submit"/><br><br>
 		<input type="tel"/><br><br>
-
+		
 		</form>
 
 		</main>
